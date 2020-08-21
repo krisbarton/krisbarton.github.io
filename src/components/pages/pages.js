@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Empty from '../static/empty';
 import '../layouts/itemsDisplay.scss';
-import Cogs from '../../assets/Cogs.svg';
+import Cogs from '../../assets/cogs.svg';
 import { PageContext } from '../context/pageContext';
 
 const Pages = (props) => {

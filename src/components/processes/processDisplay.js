@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import '../layouts/itemsDisplay.scss';
 import '../layouts/animations.scss';
-import File from '../../assets/File.svg';
+import File from '../../assets/file.svg';
 import { PageContext } from '../context/pageContext';
 
 const ProcessDisplay = (props) => {
