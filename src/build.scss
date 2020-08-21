@@ -1,0 +1,14 @@
+@import './config.scss';
+
+body {
+    background-color: $backgroundColor;
+    color: $foregroundColor;
+    font-family: $standardFont;
+    font-size: $standardFontSize;
+    margin: 0;
+}
+
+@import './components/layouts/ctas.scss';
+@import './components/layouts/standard.scss';
+@import './components/header/header.scss';
+@import './components/layouts/itemsDisplay.scss';

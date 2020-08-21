@@ -1,0 +1,11 @@
+@import '../../config.scss';
+
+.cta {
+    background-color: $primaryColor;
+    border-radius: $siteBorderRadius;
+    box-sizing: border-box;
+    color: $backgroundColor;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}

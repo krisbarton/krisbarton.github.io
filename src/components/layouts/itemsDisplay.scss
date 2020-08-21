@@ -1,0 +1,75 @@
+@import '../../config.scss';
+
+.itemsDisplay {
+    justify-content: center;
+    padding: 1rem 2rem;
+    width: 100%;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-basis: 100%;
+
+        li {
+            flex-basis: 100%;
+        }
+    }
+
+    a {
+        transition: background-color .2s ease-in;
+        &:hover {
+            background-color: $secondaryColor;
+            color: $backgroundColor;
+        }
+    }
+    
+
+    &__item {
+        align-items: center;
+        border: 1px solid $secondaryColor;
+        border-radius: $siteBorderRadius;
+        color: $foregroundColor;
+        flex-basis: 100%;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        padding: .5rem 1rem;
+        text-decoration: none;
+
+        &__count {
+            align-items: center;
+            background-color: $primaryColor;
+            border-radius: 100%;
+            color: $backgroundColor;
+            display: flex;
+            font-size: .8rem;
+            justify-content: center;
+            min-height: 20px;
+            min-width: 20px;
+            padding: .2rem;
+            text-align: center;
+        }
+
+        &__img {
+            height: auto;
+            width: 12px;
+        }
+    }
+
+    
+}
+
+@media only screen and ( min-width: $tabletBreakpoint ) {
+
+}
+
+@media only screen and ( min-width: $desktopBreakpoint ) {
+    .itemsDisplay {
+        display: flex;
+        justify-content: center;
+        ul {
+            max-width: $maxSiteWidth;
+            width: 100%;
+        }
+    }
+}
